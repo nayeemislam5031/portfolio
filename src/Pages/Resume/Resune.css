@@ -1,0 +1,24 @@
+.resume{
+   
+    
+    height: 100%;
+    Padding-top:20px;
+    padding-bottom:20px;
+}
+
+.Custom-Card{
+    background-color: hsl(0, 0%, 0%, 0)!important;
+    opacity: 1;
+    
+
+}
+.peragraph{
+    padding-left: 10px;
+    padding-right: 15px;
+    
+}
+
+.bold{
+    font-weight: bold;
+    /* font-size:15px; */
+}

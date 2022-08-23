@@ -1,0 +1,62 @@
+.body {
+    overflow: hidden;
+    
+}
+
+/* menu button */
+.menu-btn {
+    position: absolute;
+    right: 80px;
+    margin-top: 50px;
+    z-index: 9999999;
+}
+
+.menu-btn button {
+    background-color: transparent;
+    font-size: 30px;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+}
+
+/* header */
+.header {
+    position: absolute;
+    right: 0;
+    height: 0;
+    overflow: hidden;
+    width: 200px;
+    transition: all .5s ease-in-out;
+    
+
+}
+
+.open {
+    height: 100vh;
+    background-color: var(--background-overlay);
+}
+
+.header nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    
+    
+    
+}
+ li {
+    margin: 10px 0;
+    
+    
+}
+
+.navlink{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-family: 'Square Peg', cursive;
+    
+}

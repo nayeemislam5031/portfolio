@@ -1,0 +1,36 @@
+.intro {
+    /* background-color: #2e3435; */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+
+.card-body{
+    
+    width: 410px;
+    
+}
+
+
+.link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:22px;
+    
+}
+.link-tag{
+    color: #fff;
+    
+}
+.email-link{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+

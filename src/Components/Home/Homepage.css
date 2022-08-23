@@ -1,0 +1,100 @@
+body {
+    font-family: 'Edu VIC WA NT Beginner';
+
+}
+.homepage {
+    background: url("../../images/pexels-engin-akyurt-1435752.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.homepage .overlay {
+    background-image: var(--background-image);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: white;
+    text-align: center;
+}
+
+.homepage .overlay h1 {
+    text-transform: uppercase;
+    font-size: 80px;
+}
+
+.homepage .overlay p {
+    font-size: 40px
+}
+
+.homepage .overlay ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    
+}
+
+.homepage .overlay ul li {
+    margin: 0 15px;
+}
+
+.homepage .overlay ul li a {
+    font-size: 35px;
+    color: #fff;
+}
+
+ul {
+    list-style-type: none;
+    
+}
+
+
+img {
+    max-width: 100%;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+a {
+    /* font-family: inherit; */
+    text-decoration: none;
+    
+
+}
+
+
+
+
+@media (max-width: 992px) {
+    .homepage .overlay h1 {
+        font-size: 60px;
+    }
+    .homepage .overlay p {
+        font-size: 30px;
+    }
+    .homepage .overlay ul li a {
+        font-size: 25px;
+    }
+
+}
+
+@media (max-width: 500px) {
+    
+
+    .homepage .overlay h1 {
+        font-size: 48px;
+    }
+    .homepage .overlay p {
+        font-size: 25px;
+    }
+    .homepage .overlay ul li a {
+        font-size: 20px;
+    }
+
+}
