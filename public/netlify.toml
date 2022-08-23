@@ -4,8 +4,6 @@
   base= "/"
 
 [[redirects]]
-  from = "/search"
-  to = "https://api.mysearch.com"
-  status = 200
-  force = true
-  signed = "API_SIGNATURE_TOKEN_PLACEHOLDER"
+  from = "/*"
+  to = "../src/Pages/Error/Error.js" 
+  status = 404
