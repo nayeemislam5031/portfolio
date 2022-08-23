@@ -1,3 +1,8 @@
+[build-dependencies]
+  command = "npm run build"
+  oublish = "/build"
+  base= "/"
+
 [[redirects]]
   from = "/search"
   to = "https://api.mysearch.com"
