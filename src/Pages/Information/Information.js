@@ -1,7 +1,7 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Col, Container,Row,ThemeProvider } from 'react-bootstrap'
 import "./Information.css"
-import Carousel from "react-bootstrap/Carousel";
+
 import Intro from '../Intro/Intro';
 import Resume from '../Resume/Resume';
 

@@ -8,7 +8,7 @@ import { navbar } from "../../Data/Navbar";
 
 const Menu = () => {
   const [isOpen,setIsOpen] = useState(false);
-  const [link,setlink] = useState(navbar);
+  const [link] = useState(navbar);
   return (
     <>
       <div className="menu-btn">
