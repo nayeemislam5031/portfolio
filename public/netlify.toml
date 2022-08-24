@@ -1,9 +1,0 @@
-[build-dependencies]
-  command = "npm run build"
-  oublish = "/build"
-  base= "/"
-
-[[redirects]]
-  from = "/*"
-  to = "/public/index.html" 
-  status = 200
