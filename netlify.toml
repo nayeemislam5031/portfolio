@@ -5,9 +5,11 @@ status = 200
 
 [build]
 command = "npm run build "
-publish = "/opt/build/repo/build"
-base = "/opt/build/repo"
+publish = "/build"
+base = "/"
 
-base: 
+base: /opt/build/repo
+command: 'npm run build '
 commandOrigin: config
+publish: /opt/build/repo/build
 publishOrigin: config
