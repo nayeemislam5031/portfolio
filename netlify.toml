@@ -4,6 +4,7 @@ to = "/public/index.html"
 status = 200
 
 [build]
-command = "npm run build && npm run export"
-publish = "out"
+command = "npm run build "
+publish = "/build"
+base = "/"
 
