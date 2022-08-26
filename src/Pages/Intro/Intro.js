@@ -1,13 +1,13 @@
 import React from 'react'
 import "./Intro.css" 
-import {Card } from "react-bootstrap";
+import { Card, Container } from "react-bootstrap";
 import img from "../../images/Nayeem_Miah.jpg";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 
 const Intro = () => {
   return (
-    <div className="intro">
+    <Container className="intro">
       <Card style={{ backgroundColor: "#086670" }} className="">
         <Card.Img variant="top" src={img} />
         <Card.Body className="card-body">
@@ -64,7 +64,7 @@ const Intro = () => {
           <Card.Text> Science and Technology Studies, Research, Travelling, Badminton, Watching Movies   </Card.Text>
         </Card.Body>
       </Card>
-    </div>
+    </Container>
   );
 }
 

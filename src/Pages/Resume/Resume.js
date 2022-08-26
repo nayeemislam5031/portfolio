@@ -1,11 +1,11 @@
 import React from 'react'
 import "./Resune.css";
-import { Card,Row } from "react-bootstrap";
+import { Card,Container,Row } from "react-bootstrap";
 
 
 const Resume = () => {
   return (
-    <section className="resume">
+    <Container className="resume">
       <Row>
         <Card className="Custom-Card">
           <Card.Header>
@@ -81,7 +81,7 @@ const Resume = () => {
           </p>
         </Card>
       </Row>
-    </section>
+    </Container>
   );
 }
 

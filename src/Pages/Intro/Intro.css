@@ -3,14 +3,14 @@
     height: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
     margin-bottom: 30px;
 
 }
 
 .card-body{
     
-    width: 410px;
+    /* width: ; */
     
 }
 
