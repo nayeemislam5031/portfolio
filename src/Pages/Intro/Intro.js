@@ -3,12 +3,16 @@ import "./Intro.css"
 import { Card, Container } from "react-bootstrap";
 import img from "../../images/Nayeem_Miah.jpg";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import Intro_Data from "./intro.json";
 
 
 const Intro = () => {
+
+  
   return (
     <Container className="intro">
       <Card style={{ backgroundColor: "#086670" }} className="">
+        
         <Card.Img variant="top" src={img} />
         <Card.Body className="card-body">
           <Card.Title>Nayeem Miah</Card.Title>
@@ -48,9 +52,9 @@ const Intro = () => {
       <Card style={{ backgroundColor: "#086670" }} className="mt-2">
         <Card.Body className="card-body">
           <Card.Title className="">Contact</Card.Title>
-          <Card.Text href="tel:01743196139"> Phone : +88 01743196139</Card.Text>
+          <Card.Text href="tel:01743196139"> Phone : +86 186 5151 3391</Card.Text>
           <Card.Text>
-            Email :
+            Email : 
             <a className="email-link" href="mailto:nayeemislam5031@gmail.com">
               nayeemislam5031@gmail.com
             </a>
@@ -61,7 +65,11 @@ const Intro = () => {
       <Card style={{ backgroundColor: "#086670" }} className="mt-2">
         <Card.Body className="card-body">
           <Card.Title className="">Hobbies</Card.Title>
-          <Card.Text> Science and Technology Studies, Research, Travelling, Badminton, Watching Movies   </Card.Text>
+          <Card.Text>
+            {" "}
+            Science and Technology Studies, Research, Travelling, Badminton,
+            Watching Movies{" "}
+          </Card.Text>
         </Card.Body>
       </Card>
     </Container>
